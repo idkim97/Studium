@@ -17,10 +17,10 @@
    <widget class="QToolButton" name="toolButton">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>240</y>
-      <width>231</width>
-      <height>71</height>
+      <x>350</x>
+      <y>310</y>
+      <width>291</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -33,7 +33,7 @@
       <x>120</x>
       <y>60</y>
       <width>741</width>
-      <height>131</height>
+      <height>211</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -48,7 +48,7 @@
        <x>20</x>
        <y>20</y>
        <width>701</width>
-       <height>101</height>
+       <height>171</height>
       </rect>
      </property>
      <property name="html">
@@ -63,10 +63,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QToolButton" name="toolButton_2">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>370</y>
-      <width>231</width>
-      <height>71</height>
+      <x>350</x>
+      <y>390</y>
+      <width>291</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -76,10 +76,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QToolButton" name="toolButton_3">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>240</y>
-      <width>231</width>
-      <height>71</height>
+      <x>350</x>
+      <y>470</y>
+      <width>291</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -89,10 +89,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QToolButton" name="toolButton_4">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>370</y>
-      <width>231</width>
-      <height>71</height>
+      <x>350</x>
+      <y>550</y>
+      <width>291</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
