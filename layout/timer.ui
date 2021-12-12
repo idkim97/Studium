@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>965</width>
-    <height>708</height>
+    <width>964</width>
+    <height>707</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -85,7 +85,7 @@
    <widget class="QToolButton" name="toolButton_5">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>710</x>
       <y>590</y>
       <width>81</width>
       <height>31</height>
@@ -98,7 +98,7 @@
    <widget class="QToolButton" name="toolButton_6">
     <property name="geometry">
      <rect>
-      <x>840</x>
+      <x>810</x>
       <y>590</y>
       <width>81</width>
       <height>31</height>
@@ -127,7 +127,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>965</width>
+     <width>964</width>
      <height>21</height>
     </rect>
    </property>
