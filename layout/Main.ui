@@ -55,7 +55,7 @@
       <rect>
        <x>60</x>
        <y>10</y>
-       <width>611</width>
+       <width>621</width>
        <height>181</height>
       </rect>
      </property>
@@ -149,5 +149,76 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>StartButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>StartEvent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>598</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>GoalButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>GoalEvent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>583</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>729</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>InfoButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>InfoEvent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>561</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>746</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>OptionButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>OptionEvent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>588</x>
+     <y>597</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>771</x>
+     <y>602</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>StartEvent()</slot>
+  <slot>GoalEvent()</slot>
+  <slot>InfoEvent()</slot>
+  <slot>OptionEvent()</slot>
+ </slots>
 </ui>
